@@ -1,5 +1,15 @@
 Rails.application.routes.draw do
 
+  get 'user/index'
+
+  get 'user/new'
+
+  get 'user/create'
+
+  get 'user/edit'
+
+  get 'user/delete'
+
   get 'home'   => 'attendances#home'
 
   get 'aboutus' => 'attendances#about'
