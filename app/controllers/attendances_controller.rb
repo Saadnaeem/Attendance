@@ -1,4 +1,6 @@
 class AttendancesController < ApplicationController
+  
+  layout "attendance"
   def home
   end
 
