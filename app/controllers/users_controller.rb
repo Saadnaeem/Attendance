@@ -1,5 +1,5 @@
-class Users::SessionsController < Devise::SessionsController
-  before_action :authenticate_user!
+class UsersController < ApplicationController
+
   def index
   end
 
